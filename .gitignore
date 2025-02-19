@@ -1,0 +1,12 @@
+# Ignora file di ambiente
+.env
+
+# Ignora la cartella dei pacchetti installati
+node_modules/
+
+# Ignora eventuali file di log
+*.log
+logs/
+
+# Ignora la cartella build (se presente)
+dist/
