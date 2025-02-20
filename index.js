@@ -12,7 +12,7 @@ const userLogin = require('./routes/user/user_login')
 const usersRoutes = require('./routes/user/user_routes')
 
 const app = express();
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 
 
 //connection to DB
